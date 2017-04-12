@@ -111,7 +111,22 @@ public void messageTransfer(String message)
 用户连接:Socket[addr=/127.0.0.1,port=50897,localport=5024]
 /sendname 小皇
 用户连接:Socket[addr=/127.0.0.1,port=50910,localport=5024]
-/sendname Tom/creategame Tom/listroom/joingame Tom 小皇/startgame Tom 3/talk Tom 你先下吧/startgame 小皇 0/chess 小皇 263 263/chess Tom 263 298/chess 小皇 228 333/chess Tom 263 333/chess 小皇 193 368/chess Tom 263 368/chess 小皇 158 403/chess Tom 263 403/chess 小皇 123 438/youfail Tom/listroom/creategame Tom/listroom/joingame Tom 小皇/startgame Tom 3/startgame 小皇 0/chess 小皇 228 263/chess Tom 263 298/chess 小皇 228 333/chess Tom 298 298/giveup2 Tom/creategame Tom/listroom/joingame Tom 小皇/startgame Tom 3/startgame 小皇 0/chess 小皇 263 263/chess Tom 298 298/chess 小皇 228 298/chess Tom 193 333/takeback Tom/takeback2 小皇/takeback Tom/takeback2 小皇/giveup2 小皇用户断开:Socket[addr=/127.0.0.1,port=50910,localport=5024]
+
+/sendname Tom/creategame Tom/listroom/joingame Tom 小皇
+/startgame Tom 3/talk Tom 你先下吧/startgame 小皇 0/
+chess 小皇 263 263/chess Tom 263 298/chess 小皇 228 333/chess Tom 263 333/chess 小皇 193 368/chess Tom 263 368/chess 小皇 158 403/chess Tom 263 403/chess 小皇 123 438
+/youfail Tom
+/listroom
+/creategame Tom/listroom/joingame Tom 小皇/startgame Tom 3
+/startgame 小皇 0
+/chess 小皇 228 263/chess Tom 263 298/chess 小皇 228 333/chess Tom 298 298/giveup2 Tom
+/creategame Tom/listroom/joingame Tom 小皇/startgame Tom 3/startgame 小皇 0
+/chess 小皇 263 263/chess Tom 298 298/chess 小皇 228 298/chess Tom 193 333
+/takeback Tom/
+takeback2 小皇
+/takeback Tom
+/takeback2 小皇/giveup2 小皇
+用户断开:Socket[addr=/127.0.0.1,port=50910,localport=5024]
 ```
 
 ## 总结
